@@ -1,0 +1,14 @@
+<h1>Book Store Finder</h1>
+<h2>Supporting: <%= @bookstores.to_sentence %></h2>
+<div class="search_fields">
+  <%= form_tag "/search", remote: true do %>
+    <%= text_field_tag :terms, params[:terms], placeholder: "Type here the search keywords" %>
+    <%= submit_tag "Search" %>
+  <% end %>
+</div>
+<div id="loading"><%= image_tag "ajax-loader.gif" %></div>
+<div class="results">
+  <% if params[:terms] %>
+    <%= render "results" %>
+  <% end %>
+</div>

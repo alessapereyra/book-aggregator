@@ -1,0 +1,11 @@
+<h2> Search Results:</h2>
+<ul>
+</ul>
+<script>
+  window.bookstores = <%= @bookstores.map(&:to_s).to_json.html_safe %>;
+  for(var x = 0; x < window.bookstores.length; x++){
+    $.get("/filter", {store: window.bookstores[x], terms: '<%= params[:terms] %>'},
+      function(data){
+    })
+  };
+</script>
