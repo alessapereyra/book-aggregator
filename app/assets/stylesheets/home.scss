@@ -27,10 +27,11 @@ li {
 .search_fields {
   margin-top: 10px;
   input[type=text] {
-    padding: 10px;
+    padding: 12px 12px;
     width: 500px;
     outline: none;
     color: #D89090;
+    border: 1px #D4D4D4 solid;
   }
   input[type=submit] {
     border: none;
