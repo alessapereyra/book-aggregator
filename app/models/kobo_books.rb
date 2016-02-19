@@ -1,4 +1,4 @@
-class KokoBooks < BookStore
+class KoboBooks < BookStore
 
   def initialize(value)
     @base_url = "https://store.kobobooks.com/search"
