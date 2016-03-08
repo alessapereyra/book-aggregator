@@ -6,7 +6,7 @@ class BookStore
   def html_results
     if @base_url =~ /VALUE/
       Rails.logger.info @base_url
-      @base_url = @base_url.gsub("%VALUE%", URI.escape(@value))
+      @base_url = @base_url.gsub("%VALUE%", URI.escape(@options))
       Rails.logger.info @base_url
       @request  = HTTParty.get(@base_url)
     else
