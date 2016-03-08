@@ -1,5 +1,5 @@
 <h1>Book Store Finder v0.2 (SE)</h1>
-<h2>Supporting <%= @bookstores.size %> stores: <%= @bookstores.to_sentence %> (expanded by Sascha Reinstein)</h2>
+<h2>Supporting <%= @bookstores.size %> stores: <%= @bookstores.to_sentence %> <br /><small>(expanded by Sascha Reinstein)</small></h2>
 <div class="search_fields">
   <%= form_tag "/search", remote: true do %>
     <%= text_field_tag :terms, params[:terms], placeholder: "Type here the search keywords" %>
