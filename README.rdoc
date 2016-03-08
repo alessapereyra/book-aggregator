@@ -1,5 +1,5 @@
 I. SUBIENDO ARCHIVOS AL SERVIDOR
-
+  ` git add . ` 
   ` git commit -am "UN MENSAJE"
   
   A GitHub (red social nerd)
