@@ -1,16 +1,35 @@
-1. Subir cambios: 
+I. SUBIENDO ARCHIVOS AL SERVIDOR
 
   ` git commit -am "UN MENSAJE"
   
-  
-  A GitHub (red social nerd)`
-  ` git push origin master` 
+  A GitHub (red social nerd)
+  ` git push origin master`
   
   Al servidor
-  ` git push heroku master` 
+  ` git push heroku master`
   
+II. AÑADIENDO TIENDAS NUEVAS
 
+1. Crear un archivo nuevo en la carpeta app/models. 
   
+El nombre de ese archivo es importante:
+
+  file_name.rb   -> ClassName
+  pepito_uno.rb   PepitoUno
+  Baker and Taylor   =>  baker_and_taylor.rb  ->  BakerAndTaylor
+
+2. Añadir los 4 datos importantes: la URL base, las opciones de esa URL, la class de cada resultado y la class del link (etiqueta "a" ) 
+
+Estructura de URL 
+URL:  domain.com/some/middle/search?terms=banana&category=books&author=JKBanowling
+ terms=banana&category=books&author=JKBanowling
+ {"terms" => "banana", "category" => "books", "author" => "JKBanowling" }
+ 
+3. Habilitar la store nueva en el archivo app/controllers/home_controller.rb
+ 
+ 
+ 
+ NUNCA HACER ESTO
+ 
 4. Resetear: 
-
   `git reset IDENTIFIER --hard`
