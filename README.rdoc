@@ -29,6 +29,12 @@ URL:  domain.com/some/middle/search?terms=banana&category=books&author=JKBanowli
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
  NUNCA HACER ESTO
  
 4. Resetear: 
