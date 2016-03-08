@@ -1,5 +1,16 @@
 1. Subir cambios: 
 
-  ` git commit -am "UN MENSAJE" `
+  ` git commit -am "UN MENSAJE"
   
   
+  A GitHub (red social nerd)`
+  ` git push origin master` 
+  
+  Al servidor
+  ` git push heroku master` 
+  
+
+  
+4. Resetear: 
+
+  `git reset IDENTIFIER --hard`
