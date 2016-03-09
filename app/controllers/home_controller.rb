@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   
-  SUPPORTED_BOOKSTORES = [Amazon,AmazonBR,AmazonUK,AmazonJP,AmazonIT, AmazonMX, AmazonES, Mondadori, Overdrive, BarnesAndNoble, KoboBooks, Wheelers, TheGreatBritishBookShop, Bol, RMBooks, Ebrary, Ebooks, Feedbooks, BookPeople, FNAC, ElCorteIngles, CasaDelLibro, Flipside, AsiaBooks, Litres, PeruBookStore, Gandhi, Livria, Saraiva, Grammata, TodoEbook, Txtr]
+  SUPPORTED_BOOKSTORES = [Amazon,AmazonBR,AmazonUK,AmazonJP,AmazonIT, AmazonMX, AmazonES, Mondadori, Overdrive, BarnesAndNoble, KoboBooks, Wheelers, TheGreatBritishBookShop, Bol, RMBooks, Ebrary, Ebooks, Feedbooks, BookPeople, FNAC, ElCorteIngles, CasaDelLibro, Flipside, AsiaBooks, Litres, PeruBookStore, Gandhi, Livria, Saraiva, Grammata, TodoEbook, Txtr, Symbols]
   #SUPPORTED_BOOKSTORES = [AmazonMX]
   
   def index
