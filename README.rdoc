@@ -33,7 +33,11 @@ URL:  domain.com/some/middle/search?terms=banana&category=books&author=JKBanowli
  
  
  
- NUNCA HACER ESTO
+ Has esto todas las veces. Y no, no estoy haciendo reverse psychology. Obviamente eso no funcionaría contigo. 
+ Obviamente. :3
  
+ te amo :)
+ 
+
 4. Resetear: 
   `git reset IDENTIFIER --hard`I. SUBIENDO ARCHIVOS AL SERVIDOR
